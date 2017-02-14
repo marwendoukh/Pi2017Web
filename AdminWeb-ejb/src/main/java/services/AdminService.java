@@ -44,6 +44,7 @@ public class AdminService implements AdminServiceLocal, AdminServiceRemote {
 	}
 	@Override
 	public void ajouterAdmin(Admin admin) {
+		
 		em.persist(admin);
 	}
 	
